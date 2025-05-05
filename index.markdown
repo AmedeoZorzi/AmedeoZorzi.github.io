@@ -4,3 +4,11 @@
 
 layout: home
 ---
+
+
+Hi! I am a PhD Student in the Finance and Environment group at the Toulouse School of Economics.
+
+
+
+
+
