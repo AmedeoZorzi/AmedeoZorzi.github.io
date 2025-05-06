@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Amedeo Zorzi
-email: Amedeo.zorzi@tse-fr.eu
-description: >- # this means to ignore newlines until "baseurl:"
-  PhD Student
-  Toulouse School of Economics. 
+email: amedeo.zorzi@tse-fr.eu
+description: | #>- # this means to ignore newlines until "baseurl:" #| # this allows regular line breaking
+  Amedeo Zorzi, PhD Student
+  Toulouse School of Economics (TSE) 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
