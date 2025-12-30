@@ -3,17 +3,42 @@
 
 @import "minima";
 
-/* ===== your overrides start here ===== */
+
+// Link color setting
+
+a,
+a:visited {
+  color: #59932c;        /* your default link color */
+  text-decoration: none; /* no underline by default */
+}
+
+
+// Site header style 
 
 .site-header {
-  background: #0b3d2e; /* dark green */
+  background:  #59932c; //#0b5740; /* dark green */
   border-top: 0;
   border-bottom: 0;
 }
 
-.site-header a,
-.site-header a:hover {
+.site-header a {
+  text-decoration: none;
+}
+.site-header a:hover,
+.site-header a:focus {
   text-decoration: underline; /* remove or keep underline */
+}
+
+.site-header .site-nav .site-header .site-nav a:visited {
+  color: #fff;
+}
+
+/* Optional: keep them white on hover/focus too */
+.site-header .site-nav a,
+.site-header .site-nav a:hover,
+.site-header .site-nav a:focus,
+.site-header .site-nav a:focus-visible {
+  color: #fff;
 }
 
 /* Layout: logo left, nav right, title centered */
@@ -31,9 +56,10 @@
 }
 
 .site-logo{
-  height: 36px;  /* change size */
+  height: 72px;  /* change size */
   width: auto;
   display: block;
+  filter: brightness(0) invert(1);
 }
 
 /* Nav on the right */
@@ -51,8 +77,17 @@
   transform: translateX(-50%);
   color: #fff;
   text-decoration: none;
+  font-size: 30px; 
   font-weight: 600;
   z-index: 1;
+
+  // to make smaller on phone
+//   @media (min-width: 768px) {
+//   .site-title-link,
+//   .site-title-link:visited {
+//     font-size: 24px;
+//   }
+// }
 
   /* prevents overlap / ugly wrapping */
   max-width: 55%;
