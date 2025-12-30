@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const href = a.getAttribute("href");
     if (!href) return;
 
-    // skip anchors and special links
+    // Skip anchors + special links
     if (
       href.startsWith("#") ||
       href.startsWith("mailto:") ||
@@ -11,8 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
       href.startsWith("javascript:")
     ) return;
 
-    // apply to ALL links
-    a.setAttribute("target", "_blank");
-    a.setAttribute("rel", "noopener noreferrer");
+    // Resolve relative URLs safely
+    let url;
+    try {
+      url = new URL(href, window.location.href);
+    } catch {
+      return;
+    }
+
+    // Only external links (different origin)
+    if (url.origin !== window.location.origin) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    }
   });
 });
