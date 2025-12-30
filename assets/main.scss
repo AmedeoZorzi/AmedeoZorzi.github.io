@@ -1,0 +1,34 @@
+---
+---
+
+@import "minima";
+
+/* ===== your overrides start here ===== */
+
+.site-header {
+  background: #0b3d2e; /* dark green */
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.site-header a,
+.site-header a:hover {
+  text-decoration: none; /* remove underline */
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.site-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.site-nav .page-link {
+  color: #fff;
+}
