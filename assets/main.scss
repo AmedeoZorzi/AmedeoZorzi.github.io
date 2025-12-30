@@ -13,22 +13,50 @@
 
 .site-header a,
 .site-header a:hover {
-  text-decoration: none; /* remove underline */
+  text-decoration: underline; /* remove or keep underline */
 }
 
-.site-brand {
+/* Layout: logo left, nav right, title centered */
+.site-header .wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo on the left */
+.site-logo-link{
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  color: #fff;
+  z-index: 2;
 }
 
-.site-logo {
-  height: 32px;
+.site-logo{
+  height: 36px;  /* change size */
   width: auto;
   display: block;
 }
 
-.site-nav .page-link {
+/* Nav on the right */
+.site-nav{
+  margin-left: auto;
+  z-index: 3;
   color: #fff;
+}
+
+/* Title centered and white */
+.site-title-link,
+.site-title-link:visited{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 1;
+
+  /* prevents overlap / ugly wrapping */
+  max-width: 55%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
