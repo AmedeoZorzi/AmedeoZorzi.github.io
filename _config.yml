@@ -20,9 +20,7 @@
 
 title: Amedeo Zorzi
 email: amedeo.zorzi@tse-fr.eu
-description: | #>- # this means to ignore newlines until "baseurl:" #| # this allows regular line breaking
-  Amedeo Zorzi, PhD Student
-  Toulouse School of Economics (TSE) 
+#description: #>- # this means to ignore newlines until "baseurl:" #| # this allows regular line breaking
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
