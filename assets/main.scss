@@ -34,19 +34,25 @@ a:visited {
   color: #fff;
 }
 
-.site-header .site-nav .site-header .site-nav a:visited {
+.site-header .site-nav,
+.site-header .site-nav a:visited {
   color: #fff;
+  text-decoration: none;
 }
 
 /* Optional: keep them white and underline on hover/focus too */
 .site-header .site-nav a {
   color: #fff;
 }
-.site-header .site-nav a:hover,
+.site-header .site-nav a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
 .site-header .site-nav a:focus,
 .site-header .site-nav a:focus-visible {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Layout: logo left, nav right, title centered */
@@ -184,7 +190,8 @@ details[open] summary::before{content:"-"}
 // separating footer line
 
 .site-footer{
-  // background:#85aa5e;
+  //background:rgba(13, 104, 77, 0.2);
+  //background:#85aa5e; //different shade 
   // border-top: 2px solid #85aa5e; /* your custom line color */
   border-top: 2px solid #0d684d; /* your custom line color */
 }
