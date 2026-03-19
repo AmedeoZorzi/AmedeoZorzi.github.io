@@ -15,6 +15,22 @@ permalink: /teaching/
    <p style="margin-left: 15px;">[<a class="page-link"
    href="{{ '/assets/APP2_site.pdf' | relative_url }}#page=2"
    target="_blank" rel="noopener">Intro à la finance - APP 2</a>]</p>
+   <p style="margin-left: 15px;">[<a class="page-link"
+   href="{{ '/assets/APP3_site.pdf' | relative_url }}#page=2"
+   target="_blank" rel="noopener">Intro à la finance - APP 3</a>]</p>
+   <p style="margin-left: 15px;">[<a class="page-link"
+   href="{{ '/assets/APP4_site.pdf' | relative_url }}#page=2"
+   target="_blank" rel="noopener">Intro à la finance - APP 4</a>]</p>
+</details>
+</div>
+
+<div class="detailed-entry">
+<b>Ecosystem Management and Policies</b> (Graduate)
+<details>
+  <summary>Slides</summary>
+  <p style="margin-left: 15px;">[<a class="page-link"
+   href="{{ '/assets/lecture_site.pdf' | relative_url }}#page=2"
+   target="_blank" rel="noopener">Introduction to PES</a>]</p>
 </details>
 </div>
 
