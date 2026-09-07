@@ -21,6 +21,9 @@ permalink: /teaching/
    <p style="margin-left: 15px;">[<a class="page-link"
    href="{{ '/assets/APP4_site.pdf' | relative_url }}#page=2"
    target="_blank" rel="noopener">Intro à la finance - APP 4</a>]</p>
+   <p style="margin-left: 15px;">[<a class="page-link"
+   href="{{ '/assets/APP5_site.pdf' | relative_url }}#page=2"
+   target="_blank" rel="noopener">Intro à la finance - APP 5</a>]</p>
 </details>
 </div>
 
