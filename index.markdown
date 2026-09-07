@@ -19,7 +19,7 @@ layout: home
        alt = "me"
        class = "page-img">
   <div class = "page-text">
-    <p>Hi! I am a PhD Student in the <a href="https://sites.google.com/site/financeattse/">Finance</a> and <a href="https://sites.google.com/site/environmentalslottse/home">Environmental</a> group at the <a href="https://www.tse-fr.eu/">Toulouse School of Economics</a>.
+    <p>Hi! I am a PhD Student in the <a href="https://sites.google.com/site/financeattse/">Finance</a> and <a href="https://sites.google.com/site/environmentalslottse/home">Environmental</a> group at the <a href="https://www.tse-fr.eu/">Toulouse School of Economics</a>. During the fall semester of 2026, I am visiting the Harvard Kennedy School of Government.
     </p>
     <p>I am interested in sustainable and climate finance. In particular, I investigate how firms respond to rising climate change concerns through market and non-market channels, and how these responses interact with government actions, using methods from the structural econometrics literature.</p>
     <p>I am a member of the TSE Social Responsibility and Sustainable Development (RS&DD) Committee.</p>
